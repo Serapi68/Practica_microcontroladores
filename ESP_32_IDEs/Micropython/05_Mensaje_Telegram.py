@@ -7,8 +7,8 @@ import urequests
 
 # Configuración del Wifi
 
-SSID = 'DIGIFIBRA-h4hY'
-PASSWORD = 'QeTkkQCZzTRZ'
+SSID = 'NOMBRE DE RED'
+PASSWORD = 'CONTRASEÑA'
 
 #Configuración de sensor:
 
@@ -39,8 +39,8 @@ else:
     print("Error: No se conectó. Revisa SSID/clave.")
 
 #Token de telegram
-TOKEN = "8379684723:AAHFlQmi0uaI7V91d-q90EHCb5z5nW-wIB0"
-CHAT_ID = [8370545937, 7787167546, 1324503606, 8112225434, 633484940]
+TOKEN = "***************************" //Reemplazar con tu token
+CHAT_ID = [*********************, *********************] //Reemplazar con tus chat_id
 URL = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
 
 
