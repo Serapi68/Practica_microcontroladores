@@ -39,8 +39,8 @@ else:
     print("Error: No se conectó. Revisa SSID/clave.")
 
 #Token de telegram
-TOKEN = "***************************" //Reemplazar con tu token
-CHAT_ID = [*********************, *********************] //Reemplazar con tus chat_id
+TOKEN = "***************************" #Reemplazar con tu token
+CHAT_ID = [*********************, *********************] #Reemplazar con tus chat_id
 URL = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
 
 
